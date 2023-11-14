@@ -1,0 +1,8 @@
+list= [23, 65, 19, 90, 95, 82 , 84 , 75, 71, 35 ]
+print("the length of list", len(list))
+x=int(input("position-"))
+y=int(input("2nd position-"))
+temp=list[x-1]
+list[x-1]=list[y-1]
+list[y-1]=temp
+print(list)
